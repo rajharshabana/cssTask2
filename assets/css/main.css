@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerNav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+}
+.container {
+    width: calc(100% - 2 * 118px);
+    margin: 30px auto;
+}
+.rightlogo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 12px;
+}
+.rightlogo img {
+    width: 63px;
+    border-radius: 50%;
+}

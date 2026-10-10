@@ -1,0 +1,29 @@
+:root{
+    --bg--color:#9DCCFF;
+    --see--all: #49BBBD;
+    --footer--bg: #252641;
+    --title--font: Poppins;
+    --title--color: #252641; 
+    --p--color: #696984;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: var(--title--color);
+}
+body {
+    font-family: var(--title--font);
+    color: var(--title--color);
+}
+nav {
+    color: var(--p--color);
+    font-size: 22px;
+  
+}
