@@ -7,12 +7,14 @@ header{
     gap: 80px;
 }
 .container {
+    width: calc(100% - 2 * 118px);
+    margin: 0 auto;}
+
+header .container {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    width: calc(100% - 2 * 118px);
-    margin: 0 auto;
 }
 .rightlogo {
     display: flex;
@@ -23,4 +25,22 @@ header{
 .rightlogo img {
     width: 63px;
     border-radius: 50%;
+}
+@media (max-width: 1200px) {
+    .headerNav {
+        gap: 30px;
+    }
+}
+@media (max-width: 1000px) {
+    .container {
+        width: calc(100% - 2 *50px);
+    }
+}
+@media (max-width: 850px) {
+    .container {
+        width: calc(100% - 2 *30px);
+    }
+    .headerNav{
+        
+    }
 }
