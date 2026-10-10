@@ -1,8 +1,5 @@
-header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
+header{
+    padding: 10px 0;
 }
 .headerNav {
     display: flex;
@@ -10,8 +7,12 @@ header {
     gap: 80px;
 }
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
     width: calc(100% - 2 * 118px);
-    margin: 30px auto;
+    margin: 0 auto;
 }
 .rightlogo {
     display: flex;
