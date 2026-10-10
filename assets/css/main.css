@@ -41,6 +41,56 @@ header .container {
         width: calc(100% - 2 *30px);
     }
     .headerNav{
-        
+        gap:20px;
     }
+}
+.top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.top a{
+    color: var(--see--all);
+    font-weight: 700;
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding-top: 50px;
+}
+.card{
+    width: calc((100% - 2 * 50px) / 3);
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+.card img{
+    width: 100%;
+    
+}
+.author img{
+    width: 42px;
+    padding-top: 10px;
+}
+.author{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+    align-items: center;
+}
+section{
+    background-color: var(--bg--color);
+    padding: 60px;
+}
+progress{
+    width: 100%;
+    accent-color:#49BBBD;
+}
+.card p {
+    text-align: end;
+    size: 14px;
+    
 }
