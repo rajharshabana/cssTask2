@@ -84,9 +84,10 @@ header .container {
     justify-content:flex-start;
     align-items: center;
 }
-.welcome {
+.bg-blue {
     background-color: var(--bg--color);
     padding: 60px;
+    margin: 67px 0;
 }
 progress{
     width: 100%;
@@ -117,8 +118,63 @@ progress{
     display: flex;
     flex-wrap: wrap;
     gap: 88.7px;
-    align-items: center;
+    margin-top: 53px;
 }
-section h2{
-    margin-bottom: 53px;
+.top3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.top3 a{
+    color: var(--see--all);
+    font-weight: 700;
+}
+.collection3{
+    width: calc(( 100% - 3 * 49.71px ) / 4);
+    background-color: white;
+    padding: 20px;
+}
+.collections3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 49.71px;
+}
+.collection3 img {
+    
+    width: 100%;
+}
+.symbols img {
+    width: auto;
+}
+.symbols {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 0;
+}
+.bottompart img {
+    width: 40px;
+    border-radius: 50%;
+}
+.curr{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 14px;
+}
+.currencyORG{
+    text-decoration: line-through;
+}
+.currencyNEW{
+    color: var(--see--all);
+    font-weight: 700;
+}
+.bottompart{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.collection3 p{
+    padding: 20px 0;
 }
