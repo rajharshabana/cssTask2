@@ -43,6 +43,9 @@ header .container {
     .headerNav{
         gap:20px;
     }
+    nav {
+        font-size: 16px;
+    }
 }
 .top{
     display: flex;
@@ -81,7 +84,7 @@ header .container {
     justify-content:flex-start;
     align-items: center;
 }
-section{
+.welcome {
     background-color: var(--bg--color);
     padding: 60px;
 }
@@ -91,6 +94,31 @@ progress{
 }
 .card p {
     text-align: end;
-    size: 14px;
-    
+    font-size: 14px;
+
+}
+.collection{
+    width: calc((100% - 3 * 88.7px) / 4);
+    text-align: center;
+   padding: 30px;
+   border: 1px solid #E8E8F0;
+   border-radius: 12px;
+
+}
+.collection h3{
+    padding-bottom: 25px;
+}
+.collection img{
+    width: 100px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+.collections{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 88.7px;
+    align-items: center;
+}
+section h2{
+    margin-bottom: 53px;
 }
